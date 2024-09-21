@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>هنرستان آیت الله خامنه ای</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <!-- cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+
+
+    </head>
+    <body dir="rtl">
+        <section class="sub-header">
+            <nav>
+                <!-- <a href="index.html"><img></a> -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">صفحه اصلی</a></li>
+                        <li><a href="about.html">درباره ما</a></li>
+                        <li><a href="course.html">رشته های تحصیلی</a></li>
+                        <li><a href="participate.html">مدارک ثبت نام</a></li>
+                        <li><a href="contact.html">ارتباطات</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>درباره ما</h1>
+        </section>
+
+        <!-- about us content -->
+         <section class="about-us">
+            <div class="aboutrow">
+                <div class="about-col">
+                    <img src="images/aboutcontent.jpg" alt="library-image">
+                </div>
+                <div class="about-col">
+                    <h1 style="line-height: 50px;" id="head-about">
+                        هنرستان آیت اللّه خامنه ای یکی از بهترین و مجهز ترین هنرستان های استان البرز است
+                    </h1>
+                    <p style="line-height: 30px;">
+                        در این مدرسه با اختصاص دادن کارگاه های مخصوص برای تمامی رشته های تحصیلی و فراهم کردن محیطی آرام و شاد و تدریس توسط اساتید مجرب به تحصیل هرچه بهتره فرزندان شما کمک میکند.
+                    </p>
+                    <a href="contact.html" class="hero-btn red-btn">اطلاعات بیشتر</a>
+
+                </div>
+                
+            </div>
+         </section>
+
+        <!-- course -->
+        <!-- facilities -->
+         <!-- testimonials -->
+          <!-- call to action -->
+           <!-- footer -->
+            <section class="footer">
+                <!-- <h4>درباره ما</h4>
+                <p>هنرستان آیت اللّه خامنه‌ای یکی از بهترین هنرستان های استان البرز میزبان هنرجویان مشتاق و کوشای عزیز می باشد <br>و با ارائه بهترین خدمات آموزشی و فرهنگی دوره تحصیلی متوسطه دوم شگفت انگیزی را برای شما به ارمغان می آورد</p>
+                 -->
+
+                <p>
+                    سازنده وب‌سایت <i class="fa fa-heart-o"></i> سوریا صمدی بوشهری 
+                    
+                <br>
+                راه ارتباطی : samadisouriya@gmail.com
+                </p>
+            </section>
+
+<!-- JS for toggle menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
